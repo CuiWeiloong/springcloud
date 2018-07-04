@@ -1,0 +1,33 @@
+server:
+  port: 8767
+spring:
+  application:
+    name: turbine-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:5000
+eureka:
+  instance:
+#    leaseRenewalIntervalInSeconds: 10 #表示eureka client发送心跳给server端的频率，默认为30秒
+#    health-check-url-path: /actuator/health #健康检查的地址（依赖spring-boot-starter-actuator）
+  client:
+#    registryFetchIntervalSeconds: 5 #表示eureka client间隔多久去拉取服务注册信息，默认为30秒
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+turbine:
+  aggregator:
+    cluster-config: default     #需要监控的服务集群名
+  app-config: admin-client,admin-client-another    #需要监控的服务名
+  cluster-name-expression: new String("default")
+#  instanceUrlSuffix:
+#      default: actuator/hystrix.stream    #key是clusterConfig集群的名字，value是hystrix监控的后缀，springboot2.0为actuator/hystrix.stream

@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+
+my:
+  name: cralor
+  age: 17
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi,i'm ${my.name}
+
+#springboot2.0 的配置项为：
+#actuator端口
+management:
+  server:
+    port: 9001
+  endpoints:
+    web:
+      base-path: /monitor #修改访问路径  2.0之前默认是/   2.0默认是 /actuator  可以通过这个属性值修改
+      exposure:
+        include: '*'  #开放所有页面节点  默认只开启了health、info两个节点
+  endpoint:
+    health:
+      show-details: always #显示健康具体信息  默认不会显示详细信息
+
+
+
+

@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  datasource:
+   # driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cralor?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: ok
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+

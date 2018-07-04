@@ -1,0 +1,25 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: admin-client-other
+  boot:
+    admin:
+      client:
+        url: http://localhost:5000
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10 #表示eureka client发送心跳给server端的频率，默认为30秒
+    health-check-url-path: /actuator/health #健康检查的地址（依赖spring-boot-starter-actuator）
+  client:
+    registryFetchIntervalSeconds: 5 #表示eureka client间隔多久去拉取服务注册信息，默认为30秒
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

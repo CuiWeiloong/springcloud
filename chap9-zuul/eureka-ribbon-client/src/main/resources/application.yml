@@ -1,0 +1,20 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: eureka-ribbon-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#springboot2.0. 的配置项为：
+#actuator端口
+management:
+  server:
+    port: 9001
+  endpoints:
+    web:
+   #   base-path: / #修改访问路径  2.0之前默认是/   2.0默认是 /actuator  可以通过这个属性值修改
+      exposure:
+        include: '*'  #开放所有页面节点  默认只开启了health、info两个节点
