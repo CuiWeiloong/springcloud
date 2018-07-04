@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="" />
+    <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/chap6-3-ribbon/eureka-client/src/main/java/com/cralor/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6-3-ribbon/eureka-ribbon-client/src/main/java/com/cralor/Controller/RibbonController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6-3-ribbon/eureka-ribbon-client/src/main/java/com/cralor/service/RibbonService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap12-admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap12-admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap6-3-ribbon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap6-3-ribbon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7-feign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap7-feign/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/chap5-2-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,7 +65,9 @@
     <option name="width" value="814" />
     <option name="height" value="847" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -168,7 +178,7 @@
       <workItem from="1530151072262" duration="14849000" />
       <workItem from="1530346759235" duration="670000" />
       <workItem from="1530349905963" duration="6110000" />
-      <workItem from="1530576755351" duration="12428000" />
+      <workItem from="1530576755351" duration="14520000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1530151337525</created>
@@ -275,14 +285,28 @@
       <option name="project" value="LOCAL" />
       <updated>1530684470867</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ccc">
+      <created>1530684740346</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530684740346</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ccc">
+      <created>1530684826610</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530684826610</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51482000" />
+    <option name="totallyTimeSpent" value="53574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -290,12 +314,12 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" weight="0.32974428" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49807197" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49807197" weight="0.32974428" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123393" />
@@ -325,7 +349,8 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="c" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
+    <MESSAGE value="ccc" />
+    <option name="LAST_COMMIT_MESSAGE" value="ccc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springcloud_prepare/pom.xml">
