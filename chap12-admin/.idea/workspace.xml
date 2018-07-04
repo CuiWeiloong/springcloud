@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68b98a8-6f33-4c5b-842f-17a90bb7fea6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap6-3-ribbon/eureka-client/src/main/java/com/cralor/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap6-3-ribbon/eureka-ribbon-client/src/main/java/com/cralor/Controller/RibbonController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap6-3-ribbon/eureka-ribbon-client/src/main/java/com/cralor/service/RibbonService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap7-feign/eureka-client/src/main/java/com/cralor/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap7-feign/eureka-feign-client/src/main/java/com/cralor/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap7-feign/eureka-feign-client/src/main/java/com/cralor/service/TestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap6-3-ribbon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap6-3-ribbon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap7-feign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap7-feign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap7-feign/eureka-feign-client/src/main/java/com/cralor/feign/EurekaClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap7-feign/eureka-feign-client/src/main/java/com/cralor/feign/EurekaClientFeign.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
