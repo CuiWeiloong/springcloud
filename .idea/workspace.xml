@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
+    <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/chap5-2-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -168,7 +168,7 @@
       <workItem from="1530151072262" duration="14849000" />
       <workItem from="1530346759235" duration="670000" />
       <workItem from="1530349905963" duration="6110000" />
-      <workItem from="1530576755351" duration="12179000" />
+      <workItem from="1530576755351" duration="12428000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1530151337525</created>
@@ -268,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530610134975</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml">
+      <created>1530684470867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530684470867</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51233000" />
+    <option name="totallyTimeSpent" value="51482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -283,12 +290,12 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012854" side_tool="true" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32974428" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49871466" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49807197" visible="true" weight="0.32974428" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123393" />
@@ -316,9 +323,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;chap11-sleuth/.idea/workspace.xml&#10;#&#9;chap11-sleuth/src/main/java/com/cralor/Chap11SleuthApplication.java&#10;#&#9;chap11-sleuth/user-service/src/main/java/com/cralor/UserServiceApplication.java&#10;#&#9;chap12-admin/.idea/compiler.xml&#10;#&#9;chap12-admin/.idea/encodings.xml&#10;#&#9;chap12-admin/.idea/misc.xml&#10;#&#9;chap12-admin/.idea/modules.xml&#10;#&#9;chap12-admin/.idea/workspace.xml&#10;#&#9;chap12-admin/admin-client/pom.xml&#10;#&#9;chap12-admin/admin-client/src/main/java/com/cralor/AdminClientApplication.java&#10;#&#9;chap12-admin/admin-client/src/main/resources/application.yml&#10;#&#9;chap12-admin/admin-server/pom.xml&#10;#&#9;chap12-admin/admin-server/src/main/resources/application.yml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springcloud_prepare/pom.xml">
