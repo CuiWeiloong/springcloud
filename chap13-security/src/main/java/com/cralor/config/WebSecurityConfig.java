@@ -1,25 +1,36 @@
 package com.cralor.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * Created by cc.
  * 2018/7/9 11:13
  **/
+@Configuration
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements WebMvcConfigurer {
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
+        auth.userDetailsService(userDetailsService()).passwordEncoder(new BCryptPasswordEncoder());
+    }
     @Bean
     public UserDetailsService userDetailsService() {
         InMemoryUserDetailsManager manager=new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("cralor").password("123").roles("USER").build());
+        manager.createUser(User.withUsername("cralor").password(new BCryptPasswordEncoder().encode("123")).roles("USER").build());
+        manager.createUser(User.withUsername("admin").password(new BCryptPasswordEncoder().encode("123")).roles("ADMIN","USER").build());
         return manager;
     }
 
@@ -33,8 +44,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
                         .antMatchers("/user/**").hasRole("USER")
                         //任何以“/db/”开头的URL都要求用户同时拥有“ROLE_ADMIN”和“ROLE_DBA”。由于我们使用的是hasRole表达式，因此我们不需要指定“ROLE_”前缀。
                         .antMatchers("/db/**").access("hasRole('ADMIN') and hasRole('DBA')")
-                        //确保对我们的应用程序的任何请求都要求用户进行身份验证
-                        .anyRequest().authenticated()
+/*                        //确保对我们的应用程序的任何请求都要求用户进行身份验证
+                        .anyRequest().authenticated()*/
                         .and()
                 //允许用户使用基于表单的登录进行身份验证
                 .formLogin()
@@ -43,7 +54,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
                         .and()
                 .logout()
                         //注销地址
-                        .logoutUrl("user/logout")
+//                        .logoutUrl("/logout")
                         //注销成功，重定向到首页
                         .logoutSuccessUrl("/")
                         //指定一个自定义LogoutSuccessHandler。如果指定了，logoutSuccessUrl()则忽略。
