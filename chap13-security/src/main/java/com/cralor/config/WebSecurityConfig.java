@@ -1,6 +1,7 @@
 package com.cralor.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -8,10 +9,13 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+
+import javax.annotation.Resource;
+import java.lang.reflect.Type;
+
 
 /**
  * Created by cc.
@@ -22,7 +26,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Autowired
+/*    @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
         auth.userDetailsService(userDetailsService()).passwordEncoder(new BCryptPasswordEncoder());
     }
@@ -32,6 +36,28 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         manager.createUser(User.withUsername("cralor").password(new BCryptPasswordEncoder().encode("123")).roles("USER").build());
         manager.createUser(User.withUsername("admin").password(new BCryptPasswordEncoder().encode("123")).roles("ADMIN","USER").build());
         return manager;
+    }*/
+
+    //1、@Autowired和@Qualifier结合使用
+//    @Qualifier("userServiceImpl")
+//    @Autowired
+
+    //2、使用@Resource
+    @Resource
+    UserDetailsService userDetailsService;
+
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
+
+        auth.userDetailsService(userDetailsService).passwordEncoder(new BCryptPasswordEncoder());
+
+
+        /* 加密（hash）过程在Test中
+        BCryptPasswordEncoder util = new BCryptPasswordEncoder();
+        for(int i = 0 ; i < 10; i ++){
+            System. out.println(util.encode("admin" ));
+        }*/
+
     }
 
     @Override

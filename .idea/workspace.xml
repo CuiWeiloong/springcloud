@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="ccc">
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/resources/templates/blogs/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap13-security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/chap13-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/chap13-security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/src/main/java/com/cralor/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/src/main/resources/templates/blogs/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/src/main/resources/templates/blogs/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/src/test/java/com/cralor/Springboot3ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/src/test/java/com/cralor/Springboot3ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/target/classes/com/cralor/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/target/classes/com/cralor/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13-security/target/test-classes/com/cralor/Springboot3ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/target/test-classes/com/cralor/Springboot3ApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chap5-2-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +55,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -84,8 +112,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +123,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,6 +203,7 @@
       <workItem from="1531642523467" duration="607000" />
       <workItem from="1533000716033" duration="1984000" />
       <workItem from="1533016791970" duration="415000" />
+      <workItem from="1533017233299" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1530151337525</created>
@@ -323,17 +352,23 @@
       <option name="project" value="LOCAL" />
       <updated>1533015255689</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ccc">
+      <created>1533017332841</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533017332841</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63536000" />
+    <option name="totallyTimeSpent" value="64279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,12 +382,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49807197" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,6 +401,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
 <body>
+
+    登录用户: <span sec:authentication="name"></span> |
+    用户角色: <span sec:authentication="principal.authorities"></span>
+<br>
+<br>
+
 <div>
     <table >
         <thead>

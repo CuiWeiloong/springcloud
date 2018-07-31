@@ -3,3 +3,12 @@ spring:
     mode: HTML5
     encoding: UTF-8
     cache: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring-security?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: ok
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
