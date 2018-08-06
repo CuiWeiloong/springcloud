@@ -11,6 +11,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.annotation.Resource;
 
@@ -24,19 +26,34 @@ import javax.annotation.Resource;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+                .authorizeRequests()
+                .anyRequest().authenticated()
+                .and()
+                .csrf().disable();//禁用 跨域请求伪造
+    }
 
     //1、@Autowired和@Qualifier结合使用
 //    @Qualifier("userServiceImpl")
-//    @Autowired
 
+//    @Autowired
     //2、使用@Resource
+
     @Resource
     UserDetailsService userDetailsService;
 
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+
+        return new BCryptPasswordEncoder();
+     //   return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    }
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception{
 
-        auth.userDetailsService(userDetailsService).passwordEncoder(new BCryptPasswordEncoder());
+        auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
 
         /* 加密（hash）过程在Test中
         BCryptPasswordEncoder util = new BCryptPasswordEncoder();
@@ -44,15 +61,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             System. out.println(util.encode("admin" ));
         }*/
 
-    }
-
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http
-                .authorizeRequests()
-                        .anyRequest().authenticated()
-                        .and()
-                        .csrf().disable();//禁用 跨域请求伪造
     }
 
     @Bean
