@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0598bbb3-6282-4562-b351-211159da45af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/service-auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/security/UserServiceDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/service-hi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/auth-service/src/main/java/com/cralor/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/ServiceHiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/config/OAuth2ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/config/ResourceServerConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/repository/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/security/CustomUserInfoTokenServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/auth-service/auth-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-hi/service-hi.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -485,7 +480,7 @@
       <workItem from="1533016800180" duration="407000" />
       <workItem from="1533017237242" duration="14838000" />
       <workItem from="1533519815585" duration="4260000" />
-      <workItem from="1533545831940" duration="375000" />
+      <workItem from="1533545831940" duration="584000" />
     </task>
     <servers />
   </component>
@@ -504,7 +499,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55432000" />
+    <option name="totallyTimeSpent" value="55641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

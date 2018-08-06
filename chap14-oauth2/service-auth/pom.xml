@@ -15,7 +15,7 @@
         <groupId>com.cralor</groupId>
         <artifactId>chap14-oauth2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from dao -->
     </parent>
 
     <properties>
