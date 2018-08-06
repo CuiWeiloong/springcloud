@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0598bbb3-6282-4562-b351-211159da45af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/ServiceHiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/config/OAuth2ClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/config/ResourceServerConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/HiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/repository/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/security/CustomUserInfoTokenServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/auth-service/auth-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-hi/service-hi.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -243,7 +239,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="353" />
     <option name="y" value="10" />
     <option name="width" value="814" />
@@ -502,8 +498,7 @@
     <option name="totallyTimeSpent" value="55641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.23560767" />
       <window_info id="Designer" order="1" />

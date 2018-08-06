@@ -21,14 +21,14 @@ import javax.sql.DataSource;
 
 @EnableResourceServer
 @SpringBootApplication
-public class AuthServiceApplication {
+public class ServiceAuthApplication {
 
     @Autowired
     @Qualifier("dataSource")
     private DataSource dataSource;
 
     public static void main(String[] args) {
-        SpringApplication.run(AuthServiceApplication.class, args);
+        SpringApplication.run(ServiceAuthApplication.class, args);
     }
 
 
