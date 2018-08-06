@@ -1,4 +1,4 @@
-package com.cralor.service.security;
+package com.cralor.service;
 
 import com.cralor.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;

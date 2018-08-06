@@ -1,4 +1,4 @@
-package com.cralor.service.impl;
+package com.cralor.service;
 
 import com.cralor.dao.UserDao;
 import com.cralor.entity.User;

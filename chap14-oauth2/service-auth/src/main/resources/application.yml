@@ -10,17 +10,19 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  security:
+    user:
+      name: xiaoming
+      password: 123
+
 server:
   servlet:
     context-path: /uaa
   port: 5000
-#security:
-  #oauth2:
-
-
-    #resource:
-
-     # filter-order: 3
+security:
+  oauth2:
+    resource:
+      filter-order: 3
 eureka:
   client:
     serviceUrl:

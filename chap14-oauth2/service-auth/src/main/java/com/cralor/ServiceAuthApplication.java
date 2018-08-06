@@ -1,6 +1,6 @@
 package com.cralor;
 
-import com.cralor.service.security.UserServiceDetail;
+import com.cralor.service.UserServiceDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.SpringApplication;

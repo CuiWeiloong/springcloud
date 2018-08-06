@@ -54,13 +54,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception{
 
         auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
-
-        /* 加密（hash）过程在Test中
-        BCryptPasswordEncoder util = new BCryptPasswordEncoder();
-        for(int i = 0 ; i < 10; i ++){
-            System. out.println(util.encode("admin" ));
-        }*/
-
     }
 
     @Bean

@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e346178-e986-49a5-a2a3-204690563073" name="Default" comment="ccc">
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap13-security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap13-security/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/service/security/UserServiceDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/java/com/cralor/service/UserServiceDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap14-oauth2/service-hi/src/main/java/com/cralor/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap14-oauth2/service-hi/src/main/java/com/cralor/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chap5-2-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533549092691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533550900940" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chap13-security" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -196,7 +197,7 @@
       <workItem from="1533016791970" duration="415000" />
       <workItem from="1533017233299" duration="3191000" />
       <workItem from="1533518558927" duration="1238000" />
-      <workItem from="1533545827774" duration="1875000" />
+      <workItem from="1533545827774" duration="2500000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1530151337525</created>
@@ -373,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533546706989</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ccc">
+      <created>1533549189349</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1533549189349</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69840000" />
+    <option name="totallyTimeSpent" value="70465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

@@ -2,7 +2,7 @@ package com.cralor.controller;
 
 
 import com.cralor.entity.User;
-import com.cralor.service.impl.UserServiceImpl;
+import com.cralor.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

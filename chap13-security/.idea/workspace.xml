@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0598bbb3-6282-4562-b351-211159da45af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap14-oauth2/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/security/UserServiceDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/java/com/cralor/service/UserServiceDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-oauth2/service-hi/src/main/java/com/cralor/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="364">
               <caret line="14" column="58" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="-313">
               <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -239,7 +240,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="353" />
     <option name="y" value="10" />
     <option name="width" value="814" />
@@ -476,7 +477,7 @@
       <workItem from="1533016800180" duration="407000" />
       <workItem from="1533017237242" duration="14838000" />
       <workItem from="1533519815585" duration="4260000" />
-      <workItem from="1533545831940" duration="584000" />
+      <workItem from="1533545831940" duration="1256000" />
     </task>
     <servers />
   </component>
@@ -495,10 +496,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55641000" />
+    <option name="totallyTimeSpent" value="56313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.23560767" />
       <window_info id="Designer" order="1" />
@@ -829,16 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/service/IBlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -891,8 +882,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="-313">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cralor/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
